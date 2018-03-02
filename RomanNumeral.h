@@ -1,6 +1,7 @@
 #ifndef ROMANNUMERAL_H_
 #define ROMANNUMERAL_H_
-
+#include <cstdlib>
+#include <iostream>
 using namespace std;
 
 class RomanNumeral
@@ -32,8 +33,8 @@ private:
    int decimal;   //decimal value as an integer
    string roman;  //roman numeral as a string
    
-   int to_decimal();    //convert roman numeral to decimal value
-   string to_roman();   //convert decimal value to roman numeral
+   void to_decimal();    //convert roman numeral to decimal value
+   void to_roman();   //convert decimal value to roman numeral
 };
 
 #endif /* ROMANNUMERAL_H_ */
